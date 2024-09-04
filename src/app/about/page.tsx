@@ -26,7 +26,7 @@ export default function Component() {
                 Brief introduction about yourself. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Im doing Software Engineering from <br />                        
-                 ' Military College of Signals, NUST ' 
+                 Military College of Signals, NUST 
               </p>
               <div className="mb-4">
                 <h3 className="text-lg font-semibold mb-2">Skills</h3>
