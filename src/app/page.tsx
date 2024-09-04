@@ -42,15 +42,6 @@ export default function Home() {
               </CardFooter>
           </Card>
         </div>
-          <h1 className="text-3xl font-extrabold text-center mt-5">CALENDAR Import from SHADCN UI</h1>
-          <div className="flex justify-center mt-12" >
-          <Calendar
-                mode="single"
-                selected={date}
-                onSelect={setDate}
-                className="rounded-md border"
-              />
-          </div>
 
           <div className="flex justify-center my-12">
             <HoverCard>
