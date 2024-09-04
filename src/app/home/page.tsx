@@ -17,7 +17,7 @@ export default function Component() {
                   Welcome to Our Amazing Website
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Discover the power of our innovative solutions. We're here to help you achieve your goals.
+                  Discover the power of our innovative solutions. We re here to help you achieve your goals.
                 </p>
               </div>
               <div className="space-x-4">
