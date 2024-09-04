@@ -8,7 +8,7 @@ export default function ContactUs() {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-12">
         <h1 className="text-3xl font-bold tracking-tight sm:text-4xl mb-2">Contact Us</h1>
-        <p className="text-xl text-muted-foreground">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        <p className="text-xl text-muted-foreground">We d love to hear from you. Send us a message and well respond as soon as possible.</p>
       </header>
 
       <div className="grid gap-8 md:grid-cols-2">
