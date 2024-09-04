@@ -89,7 +89,7 @@ export default function Component() {
   )
 }
 
-function MountainIcon(props) {
+function MountainIcon(props:any) {
   return (
     <svg
       {...props}
