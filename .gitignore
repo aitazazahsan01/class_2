@@ -1,0 +1,22 @@
+# Compiled firmware binaries (rebuilt automatically by the harness)
+firmware/*.exe
+firmware/*.o
+firmware/thermostat_controller
+!firmware/thermostat_controller.c
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# Secrets
+.env
+
+# Run outputs (keep the folder, ignore generated contents)
+results/*.json
+
+# OS
+.DS_Store
+Thumbs.db
