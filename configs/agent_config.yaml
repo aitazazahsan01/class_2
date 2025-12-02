@@ -1,0 +1,19 @@
+# Configuration for the real agent runs (src/agent/real_agent.py).
+# run_agent.py currently takes provider/model as CLI flags directly;
+# this file is the reference config to expand into --config-file loading
+# once you're running multiple architecture/model comparisons (see
+# README.md "Research design" -> comparing agent architectures).
+
+provider: anthropic          # or: openai
+model: claude-sonnet-4-5-20250929   # or, for openai: gpt-4o
+
+# Candidates to try once the single-agent baseline is working, for the
+# "what agent architecture produces the most effective test suite" question:
+alt_configs:
+  - provider: openai
+    model: gpt-4o
+  - provider: anthropic
+    model: claude-haiku-4-5-20251001   # cheaper/faster, useful for iteration
+
+firmware_target: thermostat_controller.c
+max_tests_per_run: 8
