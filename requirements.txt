@@ -1,0 +1,11 @@
+# Pinned to what was verified working in development (agent construction
+# smoke-tested against these exact versions). `>=` rather than `==` so minor
+# patches still apply, but if something breaks, pin exactly to these.
+langgraph>=1.2.9
+langchain>=1.3.14
+langchain-anthropic>=1.5.4
+langchain-openai>=1.4.0
+anthropic>=0.121.0
+openai>=2.46.0
+pydantic>=2.13.4
+pytest>=8.0.0
